@@ -116,7 +116,7 @@ Random rand = new Random();
 Console.WriteLine("Вывод массива на печать:");
     for (int i=0; i < currentArray.Length; i++ )
     {
-    currentArray[i] = rand.NextDouble() * 100;
+    currentArray[i] = rand.NextDouble() * 100 -50;
     Console.Write("{0,6:F2}    ", currentArray[i]);
     }             
 }
