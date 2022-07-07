@@ -38,6 +38,10 @@ Console.WriteLine($"Количество чисел больше нуля: {Comp
 //заданных уравнениями y = k1 * x + b1, y = k2 * x + b2; 
 //значения b1, k1, b2 и k2 задаются пользователем.
 
+Console.WriteLine("____________");
+Console.WriteLine("Задача 43");
+Console.WriteLine();
+
 double[,] Coefficient = new double[2, 2];
 double[] crossPoint = new double[2];
 
